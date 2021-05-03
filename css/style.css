@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Noto Sans JP", "Hiragino Kaku Gothic ProN", 'Open Sans', sans-serif;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Noto Sans JP", "Hiragino Kaku Gothic ProN", 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+h5 {
+  font-family: 'Quicksand', sans-serif;
+}
+h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+nav {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+  font-family: 'Quicksand', sans-serif !important;
+}
+.alert {
+  font-family: 'Quicksand', sans-serif　!important;
+}
+
+/*
+aタグの色をカスタマイズ
+*/
+a:link, a:hover, a:active {
+  color: #17a2b8;
+}
+
+a:visited {
+  color: gray;
+}
+
+/*
+listのデザイン変更
+*/
+.li-style{
+  list-style: none;
+}
+
+.ul-style > li:before {
+  content: "\f058";
+  font-weight: 900;
+  position: relative;
+  font-family: "Font Awesome 5 Free";
+  margin-right: .5em;
+}
+
+/*
+Blockquote(引用)のデザイン変更
+*/
+blockquote {
+  position: relative;
+  padding: 10px 15px 10px 60px;
+  box-sizing: border-box;
+  font-style: italic;
+  background: #efefef;
+  color: #555;
+}
+
+blockquote:before{
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  color: #cfcfcf;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+blockquote p {
+  padding: 0;
+  margin: 10px 0;
+  line-height: 1.7;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+  color: #888888;
+  font-size: 0.9em;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #fff;
+  border-left: solid 1px #ececec;
+}
+::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 2px #fff;
+}

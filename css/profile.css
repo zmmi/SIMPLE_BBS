@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/* Background pattern from Toptal Subtle Patterns */
+.profile-item {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+.profile-comment {
+  text-align: center;
+  font-size: middle;
+  text-shadow: 2px 4px 4px rgba(14, 14, 14, 0.3);
+}
+
+.profile-name {
+  position: relative;
+  word-wrap: break-word;
+  font-family: 'Quicksand', sans-serif;
+  z-index: 2;
+}
+
+.profile-spell {
+  margin-top:-35px;
+  position: relative;
+  font-size: x-large;
+  word-wrap: break-word;
+  font-family: 'Quicksand', sans-serif;
+  color: transparent;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow:
+  #d3d6dd 2px 2px 4px;
+  z-index: 1;
+}
+
+.profile-card {
+  background-color: rgb(228, 228, 228);
+  width: 10rem;
+  box-shadow: 1px 3px 5px rgba(14, 14, 14, 0.3);
+  border-style: none;
+  border-radius: 0;
+}
+
+.list-name {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 4px 4px rgba(14, 14, 14, 0.3);
+}
+
+.bbs-title {
+  font-size: 120;
+  font-weight: bolder;
+  text-align: left;
+}
